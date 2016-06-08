@@ -12,3 +12,9 @@ SELECT * from CITY WHERE COUNTRYCODE = 'JPN';
 
 Japanese Cities' Name
 SELECT NAME from CITY WHERE COUNTRYCODE = 'JPN';
+
+Weather Observation Station 1
+SELECT CITY, STATE from STATION;
+
+Weather Observation Station 3
+SELECT DISTINCT CITY from STATION WHERE ID % 2 = 0;
