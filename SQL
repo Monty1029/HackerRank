@@ -19,7 +19,7 @@ SELECT CITY, STATE from STATION;
 Weather Observation Station 3
 SELECT DISTINCT CITY from STATION WHERE ID % 2 = 0;
 
-Weather Observation Station 3
+Weather Observation Station 4
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY) as difference from STATION;
 
 Weather Observation Station 6
