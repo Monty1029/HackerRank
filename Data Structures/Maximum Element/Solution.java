@@ -24,7 +24,7 @@ public class Solution {
 			if (stack.size() == 1) {
 				max.push(stack.peek());
 			}
-			if (stack.peek() > max.peek()) {
+			if (stack.peek() >= max.peek()) {
 				max.push(stack.peek());
 			}
 		} else if (splitInstruction[0].equals("2") && stack.size() > 0) {
